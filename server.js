@@ -20,4 +20,8 @@ app.listen(4000, () => {
     console.log('up on 4000')
 })
 
-
+rollbar.log('Notification.')
+rollbar.info('Stuff is working.')
+rollbar.warning('Brain is tired.')
+rollbar.error('Laptop too slow.')
+rollbar.critical('No more yogurt.')
